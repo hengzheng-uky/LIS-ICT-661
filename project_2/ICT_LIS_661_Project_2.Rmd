@@ -1,0 +1,102 @@
+---
+title: "ICT_LIS_661_Project_2"
+output:
+  html_document: default
+  pdf_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Welcome to Code Chunks!
+
+Our last project `.Rmd` file introduced but didn't actually use code chunks, so it's worth touching on those again before we dive back into the project. 
+
+Remember that R Markdown is a way for data scientists to share their code **and** write up their research. Regular Markdown features help data scientists format their regular writing, and then *code chunks* display—and run—code alongside writing and commentary.
+
+Here's what a code chunk looks like:
+
+```{r}
+1 + 1
+```
+
+When the `.Rmd` document is knit to HTML, not only does the Markdown stuff get formatted, but all of these code chunks are run, so that the code itself **and** the results will appear in the final document. Pretty nifty!
+
+That said, it's always best to run the code before you knit the file—you know, to make sure the code works properly before you publish it. In that case, you can hit the green "play" button in the top right of the code chunk, and the code will run and display the results—not in the usual console, but in a mini-console attached to the code itself. Try it out on the code-chunk above. You'll need to run your own code to test it as you work with `.Rmd` documents in this class.
+
+# Welcome to Project 2!
+
+Before moving on, please make a copy of this file and rename it in a way that makes a clear distinction between the original file and the file you'll eventually submit.
+
+> Under the headers below, I'll provide you with certain instructions, all of them formatted as blockquotes, like this paragraph is. Under each set of instructions, leave a blank line and then type your (non-blockquoted) response on the line after the blank one. At the very end of this document, I'll provide instructions for *knitting* and submitting the `.Rmd` to Canvas.
+
+## Project 2, Part 1: Your Dataset [4 points]
+
+> For this project, you will need to identify a dataset with at least 100 observations and 5 variables (at least 3 of which are quantitative). A dataset with at least 1,000 observations and 10 variables would be even better—but not necessary. This does not need to be a publicly available dataset, but please ensure that you can use the dataset legally and ethically. Store the data somewhere in your GitHub repository for this class.
+
+
+> In the code chunk below, please load the dataset into this document. (Keep in mind that you can—and may need to—load packages as part of this or any other code chunk; however, please do not try to install any packages here). [1 point]
+
+```{r}
+
+```
+
+> Now that you've loaded the dataset, please tell me some about it. Does it have a title? If not, what title would you give it? What reference or citation information (including a public URL, if applicable) can you provide about the dataset? Who created the dataset and when? How did they create it? [1 point]
+
+
+
+> What is your interest in this dataset? In general terms, what would you like to know about it? More specifically, what are some possible research questions that you could ask? [1 point]
+
+
+
+> As needed, perform any data cleaning (including "tidying" or "wrangling") on the data in the code chunk below. [1 point]
+
+```{r}
+
+```
+
+## Project 2, Part 2: Summary Statistics [4 points]
+
+> In the code chunk below, write some code that provides a summary of your data. (Please note that while this can include the calculation of summary statistics, you should also use a function that gives you a broader overview of the dataset). As you determine what code to write, consider the specific prompts below. As is typical for R, there are a number of ways to do this—*how* you do so is less important than *that* you do so. [1 point]
+
+```{r}
+
+```
+
+> How many observations and variables are in your dataset? [1 point]
+
+
+
+> List and explain 3-5 of the most important quantitative variables. (The quantitative part will become important in the next step!) [1 point]
+
+
+
+> Report on some key summary statistics for the 3-5 variables you identified above. What do those statistics tell you about those variables? [1 point]
+
+## Project 2, Part 3: Visualization [2 points]
+
+```{r}
+
+```
+
+> In the code chunk below, pick one or more of the variables in your dataset, choose an appropriate visualization for the variable(s), and carry that visualization out. [1 point]
+
+```{r}
+
+```
+
+> Here, explain what you were trying to learn about the data, what kind of plot you chose, why that plot is important for what you were trying to learn, and what the plot showed about the data. [1 point]
+
+
+
+
+# Submitting Project 2
+
+After you've completed all parts of this assignment to your satisfaction, click on the `Knit` button in the toolbar at the top of this pane. When/if prompted, please indicate that you wish to knit to an HTML file. Knitting to PDF or Word are fancy tricks but take some more setting up, and that's beyond the scope of this class. 
+
+After RStudio has finished knitting the file, it will bring it up in a special RStudio interface. **You should use this interface to review the document and make sure that everything appears as you want.** Then, however, you should navigate to the same folder where you have stored this `.Rmd` file, and you will find a `.html` file with the same name in that same folder. You can open that file to view this in your browser; more importantly, this is the file that you should submit to Canvas to complete this assignment.
+
+I cannot accept any submission of your work besides the knit `.html` file! If you are having trouble knitting, please get in touch with me instead of submitting the `.Rmd` file and hoping it will work instead. Likewise, please don't attempt to manually convert this `.Rmd` file into an `.html` file—that will not work either.
+
+Speaking of having your data, though, it would be nice to have access to all the work you've done in addition to the `.html` file. Please open GitHub desktop, navigate to your repository for this class, *commit* the changes that you've made in completing this project, and *push* those changes to GitHub. I will also ask you to do this if you need any help along the way.

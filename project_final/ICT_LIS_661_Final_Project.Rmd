@@ -1,0 +1,78 @@
+---
+title: "ICT_LIS_661_Final_Project"
+output:
+  html_document: default
+  pdf_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Data Description, Preparation, and Exploration [5 points]
+
+> In the code chunk below, run all the code necessary to load your data and carry out some exploratory data analysis (take note of the questions below). [1 point]
+
+```{r}
+
+```
+
+> Describe your dataset, including a reference, a description of the data collection procedure, and its size (number of observations and variables). [1 point]
+
+
+
+> Explain any tidying and wrangling that you performed on the data and why you took those steps. [1 point]
+
+
+
+> Provide a description of key variables and their summary statistics. What do these summary statistics tell you about the data? [1 point]
+
+
+
+> Explain how you visualized key variables, why you chose those visualizations, and what they tell you about the data. [1 point]
+
+
+
+# Hypotheses [4 points]
+
+> Describe at least four null hypotheses you wish to test (and four accompanying alternative hypotheses). Explain each hypothesis in detail and in terms of the variables identified above. [4 points]
+
+
+
+# Data Analysis [4 points]
+
+> Throughout the semester, we've practiced using inferential statistics to determine: 1) differences in population proportions, 2) differences in population means, and 3) population regression slopes. Explain which of these three applications of inferential statistics is relevant to *each* of your hypotheses and why. [4 points]
+
+
+
+# Results and Discussion [12 points]
+
+> In the code chunk below, run all the code necessary to carry out the analyses described above. [4 points]
+
+```{r}
+
+```
+
+
+> Interpret the results of your analyses (that is, describe what the results mean for your data and your hypotheses). [4 points]
+
+
+
+> Please also discuss any practical implications of these results (that is, explain how people might wish to think or act differently based on these results). [2 points]
+
+
+
+> Describe any limitations of your data or your analyses. [2 points]
+
+
+
+
+# Submitting the Project
+
+After you've completed all parts of this assignment to your satisfaction, click on the `Knit` button in the toolbar at the top of this pane. When/if prompted, please indicate that you wish to knit to an HTML file. Knitting to PDF or Word are fancy tricks but take some more setting up, and that's beyond the scope of this class. 
+
+After RStudio has finished knitting the file, it will bring it up in a special RStudio interface. **You should use this interface to review the document and make sure that everything appears as you want.** Then, however, you should navigate to the same folder where you have stored this `.Rmd` file, and you will find a `.html` file with the same name in that same folder. You can open that file to view this in your browser; more importantly, this is the file that you should submit to Canvas to complete this assignment.
+
+I cannot accept any submission of your work besides the knit `.html` file! If you are having trouble knitting, please get in touch with me instead of submitting the `.Rmd` file and hoping it will work instead. Likewise, please don't attempt to manually convert this `.Rmd` file into an `.html` file—that will not work either.
+
+Speaking of having your data, though, it would be nice to have access to all the work you've done in addition to the `.html` file. Please open GitHub desktop, navigate to your repository for this class, *commit* the changes that you've made in completing this project, and *push* those changes to GitHub. I will also ask you to do this if you need any help along the way.
